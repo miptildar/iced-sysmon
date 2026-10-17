@@ -1,0 +1,9 @@
+[package]
+name = "iced-sysmon"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+iced = {version = "0.14.0", features = ["tokio"]}
+sysinfo = "0.39.6"
+tokio = "1.53.3"
